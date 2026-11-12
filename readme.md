@@ -14,3 +14,4 @@
 
 ## 4. Kết luận
 Cache giúp giảm thời gian build và tiết kiệm tài nguyên.
+<!-- test cache hit -->
