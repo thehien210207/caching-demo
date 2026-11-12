@@ -1,13 +1,12 @@
 package com.example;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.apache.commons.lang3.StringUtils;
 
-public class AppTest {
-    @Test
-    public void testCapitalize() {
-        App app = new App();
-        assertEquals("Hello", app.capitalize("hello"));
-        assertNull(app.capitalize(null));
+public class App {
+    public String capitalize(String input) {
+        if (input == null) {
+            return null;
+        }
+        return StringUtils.capitalize(input);
     }
 }
